@@ -1,0 +1,13 @@
+body{
+     /* Background pattern from Toptal Subtle Patterns */
+     background-image: url(Images/textured_paper.png);
+     background-attachment: fixed;
+}
+
+.success{
+     color: green;
+}
+
+.failure{
+     color: red;
+}

@@ -96,7 +96,7 @@ update: nav bar close
                 </div>
             </form>
             <br>
-            <p class="text-center">See the original, warts and all <a href="/Images/palindrome.png"
+            <p class="text-center">See the original, warts and all <a href="Images/palindrome.png"
                     target="_blank">code</a> - (including debugging notes).</p>
             <div class="row border border-success border-5">
                 <img src="Images/palin3.jpg" class="img-fluid col-3 g-0" alt="palindrome related image">
@@ -126,7 +126,7 @@ update: nav bar close
                 </div>
             </form>
             <br>
-            <p class="text-center">See the original, warts and all <a href="/Images/roman.png" target="_blank">code</a>
+            <p class="text-center">See the original, warts and all <a href="Images/roman.png" target="_blank">code</a>
                 - (including debugging notes).</p>
             <div class="row border border-danger border-5">
                 <img src="Images/roman1.jpg" class="img-fluid col-3 g-0" alt="roman related image">
@@ -137,13 +137,12 @@ update: nav bar close
         </section>
         <section id="caesar">
             <h2 class="text-center pt-5 pb-4 display-3 text-warning">Caesars Cipher</h2>
-            <p class="text-center text-danger"><b>NOTE: Code must be typed in uppercase.</b></p>
             <p class="text-center lead mb-4">When Julius Caesar wanted to send secret messages he encrypted them. One
                 method of doing this is by
                 shifting
                 each
                 letter of the message along a certain
-                number of places in the alphabet.</p>
+                number of places in the alphabet. The original FCC test required that the text to be encoded was uppercase, though I have changed this here to make the demonstration more user friendly.</p>
             <form action="#" id="caesar-form">
                 <div class="input-group mx-auto">
                     <label for="inputCae" class="input-group-text bg-primary text-light">Type your code here:</label>
@@ -157,7 +156,7 @@ update: nav bar close
                 </div>
             </form>
             <br>
-            <p class="text-center">See the original, warts and all <a href="/Images/cipher.png" target="_blank">code</a>
+            <p class="text-center">See the original, warts and all <a href="Images/cipher.png" target="_blank">code</a>
                 - (including debugging notes).</p>
             <div class="row border border-warning border-5">
                 <img src="Images/roman2.png" class="img-fluid g-0" alt="roman related image">
@@ -194,7 +193,7 @@ update: nav bar close
                 </div>
             </form>
             <br>
-            <p class="text-center">See the original, warts and all <a href="/Images/phone.png" target="_blank">code</a>
+            <p class="text-center">See the original, warts and all <a href="Images/phone.png" target="_blank">code</a>
                 - (including debugging notes).</p>
             <div class="row border border-primary border-5">
                 <img src="Images/phone3.jpg" class="img-fluid col-3 g-0" alt="phone related image">
@@ -210,6 +209,8 @@ update: nav bar close
                 calculates the most efficient change to be returned from the available change in the till. This will
                 also return "open" if the till still contains change, "closed" if the transaction requires exactly all
                 of the available change in the till, or "insufficient funds" if the change available is insufficient.
+            </p>
+            <p class="text-center lead">At the time this was by far the most challenging of the algorithms to build, as is reflected in the complexity (and perhaps inefficiency) of the orignial code.
             </p>
             <p class="text-center text-danger"><b>Note: This is not the most user friendly test, as this algorithm works
                     with a variable amount
@@ -240,7 +241,7 @@ update: nav bar close
                     <button class="btn btn-info">Calculate</button>
                 </div>
             </form>
-            <p class="text-center">See the original, warts and all <a href="/Images/cash.png" target="_blank">code</a> -
+            <p class="text-center">See the original, warts and all <a href="Images/cash.png" target="_blank">code</a> -
                 (including debugging notes).</p>
             <div class="row border border-info border-5">
                 <img src="Images/till2.jpg" class="img-fluid col-5 g-0" alt="till related image">
@@ -258,7 +259,7 @@ update: nav bar close
                 Free Code Camp certification. As such there is room for improvement in these algorithms e.g. the cash
                 register is not designed to respond appropriately if cash recieved is lower than the price, the
                 palindrome
-                checker will treat an empty string as a palindrome, the Caesars cipher requires capitalization. These
+                checker will treat an empty string as a palindrome, etc. These
                 algorithms passed all the required tests in order obtain certification, in a "real-world" setting they
                 would benefit from refactoring.</p>
             <p class="text-center">I wanted to show case here the requirements of the certification, demonstrate the

@@ -171,7 +171,7 @@ caesarsForm.addEventListener('keyup', function(e){
         caesarsAnswer.innerHTML = '';
     }
     const userInput = caesarsForm.elements.inputCae;
-    caesarsTest(userInput.value);
+    caesarsTest(userInput.value.toUpperCase());
 })
 
 caesarsForm.addEventListener('submit', function(e){
